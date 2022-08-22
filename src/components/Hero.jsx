@@ -1,5 +1,5 @@
 import styles from '../style';
-import { discount, robot } from '../assets';
+import { bankCard, discount } from '../assets';
 import GetStarted from './GetStarted';
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
 			className={`flex md:flex-row flex-col ${styles.paddingY}`}
 		>
 			<div
-				className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+				className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 relative`}
 			>
 				<div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
 					<img
@@ -23,8 +23,8 @@ const Hero = () => {
 					</p>
 				</div>
 
-				<div className='flex flex-row justify-between items-center w-full'>
-					<h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+				<div className='flex flex-row items-center w-full'>
+					<h1 className=' font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100px] leading-[75px]'>
 						The Next <br className='hidden sm:block' />{' '}
 						<span className='text-gradient'>Generation</span>{' '}
 					</h1>
@@ -33,7 +33,7 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full'>
+				<h1 className='font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] w-full'>
 					Payment Method.
 				</h1>
 
@@ -45,13 +45,12 @@ const Hero = () => {
 			</div>
 
 			<div
-				className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+				className={`flex-1 flex justify-center md:justify-end md:items-center md:my-0 my-10 relative`}
 			>
-				{/* FIXME: When we are around 1000-1200px and on large screen the image doesnt look good */}
 				<img
-					src={robot}
+					src={bankCard}
 					alt='billing'
-					className='w-[100%] h-[100%] relative z-[5]'
+					className='w-[100] relative z-[5] ml-30'
 				/>
 
 				{/* gradient start */}
