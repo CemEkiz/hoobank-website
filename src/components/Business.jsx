@@ -30,9 +30,13 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
 	return (
-		<section id='features' className={layout.section}>
-			<div className={`${layout.sectionInfo} items-center`}>
-				<h2 className={`${styles.heading2} text-center -w-full`}>
+		<section id='features' className={`${layout.section} gap-x-5`}>
+			<div
+				className={`${layout.sectionInfo} items-center md:items-start`}
+			>
+				<h2
+					className={`${styles.heading2} text-center md:text-left -w-full`}
+				>
 					You do the business, <br className='sm:block hidden' />{' '}
 					we'll handle the money
 				</h2>
