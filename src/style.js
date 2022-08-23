@@ -8,6 +8,7 @@ const styles = {
 		'font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]',
 
 	flexCenter: 'flex justify-center items-center',
+	flexBetween: 'flex justify-between items-center',
 	flexStart: 'flex justify-center items-start',
 	flexEnd: 'flex justify-end items-end',
 
@@ -17,6 +18,7 @@ const styles = {
 
 	marginX: 'sm:mx-16 mx-6',
 	marginY: 'sm:my-16 my-6',
+	marginCenter: 'ml-auto mr-auto',
 };
 
 export const layout = {
@@ -24,7 +26,7 @@ export const layout = {
 	sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
 	sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-	sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+	sectionImg: `flex-1 flex items-start justify-center lg:items-center md:ml-10 ml-0 md:mt-0 mt-10 relative`,
 
 	sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
