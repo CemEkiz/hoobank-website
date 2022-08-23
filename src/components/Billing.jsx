@@ -12,7 +12,7 @@ const Billing = () => (
 			<img
 				src={bill}
 				alt='billing'
-				className='block w-[80%] h-[80%] relative z-5'
+				className='block w-[100%] sm:w-[80%] lg:w-[100%] relative z-5 mt-10 md:mt-0'
 			/>
 			{/* Gradient Start */}
 			<div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
@@ -20,7 +20,7 @@ const Billing = () => (
 			{/* Gradient End */}
 		</div>
 
-		<div className={`${layout.sectionInfo}`}>
+		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
 				Easily control your
 				<br />
