@@ -45,7 +45,7 @@ const Hero = () => {
 			</div>
 
 			<div
-				className={`flex-1 flex justify-center md:justify-end md:items-center md:my-0 my-10 relative`}
+				className={`flex-1 flex justify-center md:justify-end md:items-center md:my-0 my-10 relative xl:px-0 sm:px-16 px-6`}
 			>
 				<img
 					src={bankCard}
