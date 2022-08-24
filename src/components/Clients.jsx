@@ -2,7 +2,10 @@ import { clients } from '../constants';
 import styles from '../style';
 
 const Clients = () => (
-	<section className={`${styles.flexCenter} my-4 mb-20 md:mb-40`}>
+	<section
+		id='clients'
+		className={`${styles.flexCenter} my-4 mb-20 md:mb-40`}
+	>
 		<div
 			className={`${styles.flexCenter} flex-wrap w-full gap-x-10 gap-y-5 sm:gap-y-0`}
 		>
