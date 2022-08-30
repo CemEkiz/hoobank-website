@@ -3,7 +3,6 @@ import styles from '../style';
 
 const Clients = () => (
 	<section
-		id='clients'
 		className={`${styles.flexCenter} my-4 mb-20 md:mb-40`}
 	>
 		<div
