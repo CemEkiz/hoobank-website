@@ -6,6 +6,7 @@ const Billing = () => (
 		id='product'
 		className={`${layout.sectionReverse} items-center text-center md:text-left gap-x-5`}
 	>
+		{/* Images */}
 		<div
 			className={`${layout.sectionImgReverse} items-center justify-center`}
 		>
@@ -20,6 +21,7 @@ const Billing = () => (
 			{/* Gradient End */}
 		</div>
 
+		{/* Description */}
 		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
 				Easily control your
@@ -32,6 +34,7 @@ const Billing = () => (
 				integer platea placerat.
 			</p>
 
+			{/* Download App */}
 			<div
 				className={`flex flex-row flex-wrap sm:mt-10 mt-6 ${styles.marginCenter} md:ml-0 md:mr-0`}
 			>
@@ -45,7 +48,6 @@ const Billing = () => (
 					alt='apple store'
 					className='w-[128px] h-[42px] object-contain cursor-pointer'
 				/>
-				{/* <img src={} alt="" /> */}
 			</div>
 		</div>
 	</section>
